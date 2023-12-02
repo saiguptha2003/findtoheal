@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1076742389076",
+    "project_id": "findtoheal",
+    "storage_bucket": "findtoheal.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1076742389076:android:593bc387d620947f77dcc1",
+        "android_client_info": {
+          "package_name": "com.example.findtoheal"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRLB7HKyaDtIviQWf0v6_muct383HHdJ8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

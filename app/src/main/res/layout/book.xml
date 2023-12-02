@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Book Appointment"
+        android:textSize="30dp"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif-black"
+        android:textFontWeight="1000"
+        android:textAlignment="center"
+
+        android:layout_marginTop="30dp"
+        />
+    <EditText
+        android:id="@+id/reciptentname"
+        android:layout_width="361dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/inputfeaild"
+        android:fontFamily="sans-serif-black"
+        android:hint="Recipient Name"
+        android:paddingLeft="20dp"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textFontWeight="1000"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/reciptentemail"
+        android:layout_width="361dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/inputfeaild"
+        android:fontFamily="sans-serif-black"
+        android:hint="Recipient Email"
+        android:inputType="textPassword"
+        android:paddingLeft="20dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textFontWeight="1000"
+        android:textSize="20dp" />
+    <EditText
+        android:id="@+id/Apointmentdate"
+        android:layout_width="361dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/inputfeaild"
+        android:fontFamily="sans-serif-black"
+        android:hint="Date dd/mm/yyyy"
+        android:inputType="text"
+        android:paddingLeft="20dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textFontWeight="1000"
+        android:textSize="20dp" />
+    <EditText
+        android:id="@+id/Apointmenttime"
+        android:layout_width="361dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/inputfeaild"
+        android:fontFamily="sans-serif-black"
+        android:hint="Time hh:mm pm/am"
+        android:inputType="text"
+        android:paddingLeft="20dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textFontWeight="1000"
+        android:textSize="20dp" />
+    <Button
+        android:id="@+id/submit"
+        android:text="Submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:fontFamily="sans-serif-black"
+        android:paddingLeft="20dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textFontWeight="1000"
+        android:textSize="20dp" />
+
+
+</RelativeLayout>

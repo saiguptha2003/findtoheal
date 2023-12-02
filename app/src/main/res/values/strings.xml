@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">findtoheal</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="data_not_found_try_again_or_check_spell">Data not Found Try again or Check Spell</string>
+    <string name="search">Search</string>
+    <string name="specialist">Specialist:</string>
+    <string name="hospital">Hospital:</string>
+</resources>
