@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
                     FirebaseUser user = mAuth.getCurrentUser();
 
                     Toast.makeText(MainActivity.this,"Login Successful",Toast.LENGTH_SHORT).show();
-                    Intent intent = new Intent(MainActivity.this, dashboard.class);
+                    Intent intent = new Intent(MainActivity.this, options.class);
                     intent.putExtra("uuid",user.getUid());
                     startActivity(intent);
                     finish();

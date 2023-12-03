@@ -32,6 +32,12 @@
         <activity android:name=".SuccessActivity"
             android:exported="true">
         </activity>
+        <activity android:name=".options"
+            android:exported="true">
+        </activity>
+        <activity android:name=".display"
+            android:exported="true">
+        </activity>
 
     </application>
 
